@@ -1,0 +1,81 @@
+ body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f4f8ff;
+      color: #011632;
+    }
+
+    h2 {
+      font-weight: 700;
+      color: #011632;
+    }
+
+    .content-area {
+      padding: 80px 0;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    iframe {
+      border-radius: 15px;
+      width: 100%;
+      height: 350px;
+      border: none;
+    }
+
+    .info-box {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      transition: 0.3s;
+    }
+
+    .info-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-box i {
+      font-size: 28px;
+      color: #1376F8;
+      margin-right: 15px;
+    }
+
+    .form-container {
+      background: #fff;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-primary {
+      background-color: #1376F8;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 25px;
+      transition: 0.3s;
+    }
+
+    .btn-primary:hover {
+      background-color: #0f5cd6;
+    }
+
+    .faq-area {
+      padding: 80px 0;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #1376F8;
+      color: #fff;
+    }
+
+    .accordion-button {
+      border-radius: 10px !important;
+    }
+
+
